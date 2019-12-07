@@ -18,6 +18,9 @@ namespace RAGEPhotoManager.Updater
         {
             using (WebClient wc = new WebClient())
             {
+                string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
+                wc.Headers.Add(HttpRequestHeader.UserAgent, "RAGE Photo Manager updater " + currentVersion);
+
                 wc.DownloadProgressChanged += wc_DownloadProgressChanged;
                 wc.DownloadFileCompleted += wc_DownloadFileCompleted;
 

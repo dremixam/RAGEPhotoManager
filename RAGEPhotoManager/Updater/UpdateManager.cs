@@ -32,12 +32,15 @@ namespace RAGEPhotoManager.Updater
         {
             try
             {
-                WebClient client = new WebClient();
-                Stream stream = client.OpenRead("https://files.liberty-tree.net/version.txt");
-                StreamReader reader = new StreamReader(stream);
-                string newestVersion = reader.ReadToEnd().Trim();
-                string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
-                return newestVersion != currentVersion;
+                using (WebClient client = new WebClient())
+                {
+                    string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
+                    client.Headers.Add(HttpRequestHeader.UserAgent, "RAGE Photo Manager updater " + currentVersion);
+                    Stream stream = client.OpenRead("https://files.liberty-tree.net/version.txt");
+                    StreamReader reader = new StreamReader(stream);
+                    string newestVersion = reader.ReadToEnd().Trim();
+                    return newestVersion != currentVersion;
+                }
             }
             catch (WebException)
             {
