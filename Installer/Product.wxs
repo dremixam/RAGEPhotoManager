@@ -6,12 +6,12 @@
 
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 
-    <!-- This is the main installer sequence run when the product is actually installed -->
     <InstallExecuteSequence>
       <Custom Action='MyProcess.TaskKill' Before='InstallValidate'/>
       <!-- Determine the install location after the install path has been validated by the installer -->
       <Custom Action="SetARPINSTALLLOCATION" After="InstallValidate"></Custom>
 
+      <Custom Action='LaunchApplication' After='InstallFinalize' />
     </InstallExecuteSequence>
 
     <Property Id="QtExecCmdLine"
@@ -57,18 +57,11 @@
 
     <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
 
-    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Launch RAGE Photo Manager" />
-    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOX" Value="1"/>
     <Property Id="WixShellExecTarget" Value="[#RAGEPhotoManager.exe]" />
     <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
 
     <UI>
       <UIRef Id="WixUI_InstallDir" />
-
-      <Publish Dialog="ExitDialog"
-      Control="Finish"
-      Event="DoAction"
-      Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
     </UI>
 
   </Product>

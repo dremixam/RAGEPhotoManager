@@ -32,15 +32,14 @@ namespace RAGEPhotoManager.Updater
         {
             try
             {
-                using (WebClient client = new WebClient())
-                {
-                    string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
-                    client.Headers.Add(HttpRequestHeader.UserAgent, "RAGE Photo Manager updater " + currentVersion);
-                    Stream stream = client.OpenRead("https://files.liberty-tree.net/version.txt");
-                    StreamReader reader = new StreamReader(stream);
-                    string newestVersion = reader.ReadToEnd().Trim();
-                    return newestVersion != currentVersion;
-                }
+                WebClient client = new WebClient();
+                string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
+                client.Headers.Add(HttpRequestHeader.UserAgent, "RAGE Photo Manager updater " + currentVersion);
+                Stream stream = client.OpenRead("https://files.liberty-tree.net/version.txt");
+                StreamReader reader = new StreamReader(stream);
+                string newestVersion = reader.ReadToEnd().Trim();
+                return newestVersion != currentVersion;
+
             }
             catch (WebException)
             {
@@ -63,7 +62,7 @@ namespace RAGEPhotoManager.Updater
         {
             Process process = new Process();
             process.StartInfo.FileName = "msiexec";
-            process.StartInfo.Arguments = " /i \"" + Path.GetTempPath() + "\\RAGE_Photo_Manager_Installer.msi\"";
+            process.StartInfo.Arguments = " /i \"" + Path.GetTempPath() + "\\RAGE_Photo_Manager_Installer.msi\" /passive /qb+";
             process.StartInfo.Verb = "runas";
             process.Start();
             process.WaitForExit();
