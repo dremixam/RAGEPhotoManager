@@ -117,7 +117,129 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="tabPageSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="columnHeaderName.Text" xml:space="preserve">
+    <value>Localisation</value>
+  </data>
+  <data name="columnHeaderIngameDate.Text" xml:space="preserve">
+    <value>Date en jeu</value>
+  </data>
+  <data name="columnHeaderRealDate.Text" xml:space="preserve">
+    <value>Date réelle</value>
+  </data>
+  <data name="groupBoxPhotoProperties.Text" xml:space="preserve">
+    <value>Propriétés</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonShare.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="buttonShare.Text" xml:space="preserve">
+    <value>Partager sur les réseaux sociaux</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="buttonExportToJPEG.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="buttonExportToJPEG.Text" xml:space="preserve">
+    <value>Exporter en JPEG</value>
+  </data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
+    <value>Paramètres Généraux</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBoxAutosave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 24</value>
+  </data>
+  <data name="checkBoxAutosave.Text" xml:space="preserve">
+    <value>Sauvegarder automatiquement les JPEGs dans :</value>
+  </data>
+  <data name="buttonBrowseAutosaveFolder.Text" xml:space="preserve">
+    <value>parcourir</value>
+  </data>
+  <data name="checkBoxStartWithSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 24</value>
+  </data>
+  <data name="checkBoxStartWithSystem.Text" xml:space="preserve">
+    <value>Démarrer avec le système</value>
+  </data>
+  <data name="groupBoxSocial.Text" xml:space="preserve">
+    <value>Réseaux sociaux</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelSnapmaticLogin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSnapmaticLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="labelSnapmaticLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="labelSnapmaticLogin.Text" xml:space="preserve">
+    <value>Identifiant :</value>
+  </data>
+  <data name="labelSnapmaticPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="labelSnapmaticPassword.Text" xml:space="preserve">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="buttonSubmitSnapmaticLogin.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="linkLabelCreateSnapmaticAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 28</value>
+  </data>
+  <data name="linkLabelCreateSnapmaticAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="linkLabelCreateSnapmaticAccount.Text" xml:space="preserve">
+    <value>Créer un compte</value>
+  </data>
+  <data name="linkLabelForgotSnapmaticPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 28</value>
+  </data>
+  <data name="linkLabelForgotSnapmaticPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="linkLabelForgotSnapmaticPassword.Text" xml:space="preserve">
+    <value>Mot de passe oublié</value>
+  </data>
+  <data name="textBoxDebugLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1462, 712</value>
+  </data>
+  <data name="fichierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 29</value>
+  </data>
+  <data name="fichierToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Fichier</value>
+  </data>
+  <data name="minimizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="minimizeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="quitterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="quitterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="aProposToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 34</value>
+  </data>
+  <data name="aProposToolStripMenuItem.Text" xml:space="preserve">
+    <value>A Propos</value>
+  </data>
   <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIABKBwEAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAgABJ
@@ -1245,6 +1367,15 @@
         96GbrwU7NbuN9O3ogyA2aAVw/8/9Hfzs9dnrs9dnr89en70+e332+uz12euz12evz16fvT57ffb67PXZ
         67PXZ6/PXp+9Pnt99vrs9dnrs9cLv/4/GV6RcNSFvFYAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="ouvrirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="paramètresToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -163,6 +163,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Updater\Updater.fr.resx">
+      <DependentUpon>Updater.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Updater\Updater.resx">
       <DependentUpon>Updater.cs</DependentUpon>
     </EmbeddedResource>

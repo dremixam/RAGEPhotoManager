@@ -80,11 +80,11 @@ namespace RAGEPhotoManager
 
             Model.Settings.Load();
 
-            checkBox1.Checked = Model.Settings.SaveToMyPictures;
+            checkBoxAutosave.Checked = Model.Settings.SaveToMyPictures;
             labelSelectedDir.Text = Model.Settings.MyPicturesPath;
             folderBrowserDialog1.SelectedPath = Model.Settings.MyPicturesPath;
 
-            checkBox2.Checked = Model.Settings.LaunchAtStartup;
+            checkBoxStartWithSystem.Checked = Model.Settings.LaunchAtStartup;
 
 #if !DEBUG
             ShowInTaskbar = false;
@@ -109,7 +109,7 @@ namespace RAGEPhotoManager
 
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
-            Model.Settings.SaveToMyPictures = checkBox1.Checked;
+            Model.Settings.SaveToMyPictures = checkBoxAutosave.Checked;
             Model.Settings.Save();
         }
 
@@ -125,7 +125,7 @@ namespace RAGEPhotoManager
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            Model.Settings.LaunchAtStartup = checkBox2.Checked;
+            Model.Settings.LaunchAtStartup = checkBoxStartWithSystem.Checked;
         }
 
         public void AddLogEntryMethod(String str)
@@ -271,6 +271,11 @@ namespace RAGEPhotoManager
             {
                 listViewImages.ListViewItemSorter = new ListViewItemComparer(e.Column, SortOrder.Ascending);
             }
+        }
+
+        private void contextMenuStripTray_Opening(object sender, CancelEventArgs e)
+        {
+
         }
     }
 

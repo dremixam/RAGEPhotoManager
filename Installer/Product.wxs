@@ -22,7 +22,6 @@
                   Execute="immediate"
                   Return="ignore"/>
 
-
     <CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLDIR]" />
 
     <Property Id="INSTALLDIR">
