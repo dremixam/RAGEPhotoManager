@@ -23,7 +23,7 @@ namespace RAGEPhotoManager.Model
         public bool drctr;
         public bool rsedtr;
 
-        public abstract String[] Display();
+        public abstract String[] Properties();
     }
 
     public class MyDateTime

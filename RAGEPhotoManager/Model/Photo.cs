@@ -26,7 +26,7 @@ namespace RAGEPhotoManager.Model
 
         public string Title { get => _Title; }
         public Bitmap Thumb { get => _Thumb; }
-        public GameType GameType { get => _Profile.GameType;}
+        public GameType GameType { get => _Profile.GameType; }
         public Metadata Meta { get => _Meta; }
         public DateTime CreationRealTime { get => _CreationRealTime; }
         public string Path { get => _Path; }
@@ -236,6 +236,125 @@ namespace RAGEPhotoManager.Model
             File.Delete(_Path);
             _LoadedPhotos.Remove(this);
         }
+
+        public String[] Properties()
+        {
+            List<String> props = new List<string>();
+
+            props.AddRange(_Meta.Properties());
+
+            props.Add("Game time : " + IngameDate);
+            props.Add("Real time : " + RealDate);
+
+            String hashtags = "";
+            foreach (Hashtag hashtag in Hashtags())
+            {
+                hashtags += hashtag.ToString() + " ";
+            }
+
+            props.Add("Hashtags : " + hashtags);
+
+            return props.ToArray();
+        }
+
+        public Hashtag[] Hashtags()
+        {
+            List<Hashtag> hashtags = new List<Hashtag>();
+
+            switch (GameType)
+            {
+                case GameType.GTA5:
+                    MetadataGTAV metadataGTAV = (MetadataGTAV)_Meta;
+                    hashtags.Add(new Hashtag(metadataGTAV.area));
+                    break;
+                case GameType.RDR3:
+                    MetadataRDR3 metadataRDR3 = (MetadataRDR3)_Meta;
+                    hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.districtname)));
+                    hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.regionname)));
+                    hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.statename)));
+                    break;
+            }
+
+            if (_Meta.meme)
+            {
+                hashtags.Add(new Hashtag("Meme"));
+            }
+            if (_Meta.mug)
+            {
+                hashtags.Add(new Hashtag("Mugshot"));
+            }
+            if (_Meta.slf)
+            {
+                hashtags.Add(new Hashtag("Selfie"));
+            }
+            if (_Meta.rsedtr)
+            {
+                hashtags.Add(new Hashtag("Rockstar Editor"));
+            }
+
+            hashtags.Add(new Hashtag(_Meta.mode));
+
+            if (GameType == GameType.RDR3)
+            {
+                MetadataRDR3 metadataRDR3 = (MetadataRDR3)_Meta;
+                if (metadataRDR3.inphotomode)
+                {
+                    hashtags.Add(new Hashtag("Photo Mode"));
+                }
+                if (metadataRDR3.meta != null)
+                {
+                    if (metadataRDR3.meta.anml != null)
+                        foreach (Int64 anml in metadataRDR3.meta.anml)
+                        {
+                            hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(anml)));
+                        }
+                    if (metadataRDR3.meta.horse != null)
+                        foreach (Int64 horse in metadataRDR3.meta.horse)
+                        {
+                            hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(horse)));
+                        }
+                    if (metadataRDR3.meta.weap != null)
+                        foreach (Int64 weap in metadataRDR3.meta.weap)
+                        {
+                            hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(weap)));
+                        }
+                    if (metadataRDR3.meta.plyr != null)
+                        foreach (Int64 plyr in metadataRDR3.meta.plyr)
+                        {
+                            hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(plyr)));
+                        }
+                }
+            }
+
+            return hashtags.ToArray();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
     public class IncorrectRockstarImageFormatException : Exception
     {

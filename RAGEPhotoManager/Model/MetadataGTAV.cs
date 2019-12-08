@@ -12,32 +12,27 @@ namespace RAGEPhotoManager.Model
         public String rds;
         public int scr;
 
-        public override String[] Display()
+        public override String[] Properties()
         {
             List<String> r = new List<string>();
-            r.Add("Localisation : ");
+            r.Add("Uid : " + uid);
 
-
+            r.Add("Location : ");
             r.Add(area);
-
             r.Add("(" + loc + ")");
 
-            r.Add("Rds : " + rds);
+            //r.Add("Rds : " + rds);
 
             // Propriétés générales
-            r.Add("Nm : " + nm);
-            r.Add("Sid : " + sid);
-            r.Add("Crewid : " + crewid);
-            r.Add("Mid : " + mid);
-            r.Add("Mode : " + mode);
-            r.Add("Meme : " + meme);
-            r.Add("Mugshot : " + mug);
-            r.Add("Uid : " + uid);
-            r.Add("Game time : " + time.GetDateTime());
-            r.Add("Real time : " + Tool.UnixTimeToDateTime(creat));
-            r.Add("Selfie : " + slf);
-            r.Add("drctr : " + drctr);
-            r.Add("rsedtr : " + rsedtr);
+            //r.Add("Nm : " + nm);
+            //r.Add("Session ID : " + sid);
+            //r.Add("Crewid : " + crewid);
+            //r.Add("Mid : " + mid);
+            //r.Add("Mode : " + mode);
+
+
+
+            //r.Add("drctr : " + drctr); // ?
 
             return r.ToArray();
         }

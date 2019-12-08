@@ -193,7 +193,7 @@ namespace RAGEPhotoManager
                 buttonExportToJPEG.Enabled = true;
                 buttonDelete.Enabled = true;
                 buttonShare.Enabled = true;
-                richTextBoxProperties.Lines = photo.Meta.Display();
+                richTextBoxProperties.Lines = photo.Properties();
             }
             else
             {
