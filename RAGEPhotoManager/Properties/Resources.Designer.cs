@@ -69,5 +69,15 @@ namespace RAGEPhotoManager.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SnapmaticLogo {
+            get {
+                object obj = ResourceManager.GetObject("SnapmaticLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

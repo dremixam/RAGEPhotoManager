@@ -117,11 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonBrowse" xml:space="preserve">
+    <value>browse</value>
   </data>
-  <data name="SnapmaticLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SnapmaticLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonExportToJPEG" xml:space="preserve">
+    <value>Export to JPEG</value>
+  </data>
+  <data name="buttonShareToSocialMedia" xml:space="preserve">
+    <value>Share to social media</value>
+  </data>
+  <data name="checkBoxAutosave" xml:space="preserve">
+    <value>Autosave JPEGs to folder :</value>
+  </data>
+  <data name="checkboxStartWithSystem" xml:space="preserve">
+    <value>Start with system</value>
+  </data>
+  <data name="columnHeaderIngameDate" xml:space="preserve">
+    <value>Ingame time</value>
+  </data>
+  <data name="columnHeaderName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="columnHeaderPic" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="columnHeaderRealDate" xml:space="preserve">
+    <value>Real time</value>
+  </data>
+  <data name="groupBoxGeneralSettings" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <data name="groupBoxPhotoActions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="groupBoxPhotoProperties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="groupboxSocial" xml:space="preserve">
+    <value>Social</value>
+  </data>
+  <data name="loginLabel" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="passwordLabel" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="snapmatic" xml:space="preserve">
+    <value>Snapmatic</value>
+  </data>
+  <data name="snapmaticCreateAccount" xml:space="preserve">
+    <value>Create an account</value>
+  </data>
+  <data name="snapmaticForgotPassword" xml:space="preserve">
+    <value>Forgot your password ?</value>
+  </data>
+  <data name="SoftwareName" xml:space="preserve">
+    <value>RAGE Photo manager</value>
+  </data>
+  <data name="submitButton" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="tabSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tabTitlePhotos" xml:space="preserve">
+    <value>Photos</value>
   </data>
 </root>

@@ -77,8 +77,6 @@ namespace RAGEPhotoManager
             this.groupBoxSocial = new System.Windows.Forms.GroupBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageLT = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.panelSnapmaticLoggedin = new System.Windows.Forms.Panel();
             this.panelSnapmaticLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -90,6 +88,9 @@ namespace RAGEPhotoManager
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelSnapmaticLoggedin = new System.Windows.Forms.Panel();
             this.tabPageInstagram = new System.Windows.Forms.TabPage();
             this.tabPageTwitter = new System.Windows.Forms.TabPage();
             this.tDebug = new System.Windows.Forms.TabPage();
@@ -110,6 +111,7 @@ namespace RAGEPhotoManager
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             this.tabControlMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -129,6 +131,8 @@ namespace RAGEPhotoManager
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tDebug.SuspendLayout();
             this.menuStripMain.SuspendLayout();
             this.contextMenuStripTray.SuspendLayout();
@@ -495,9 +499,8 @@ namespace RAGEPhotoManager
             // 
             // tabPageLT
             // 
-            this.tabPageLT.Controls.Add(this.tableLayoutPanel9);
-            this.tabPageLT.Controls.Add(this.panelSnapmaticLoggedin);
             this.tabPageLT.Controls.Add(this.panelSnapmaticLogin);
+            this.tabPageLT.Controls.Add(this.panelSnapmaticLoggedin);
             this.tabPageLT.Location = new System.Drawing.Point(4, 29);
             this.tabPageLT.Name = "tabPageLT";
             this.tabPageLT.Padding = new System.Windows.Forms.Padding(3);
@@ -505,33 +508,6 @@ namespace RAGEPhotoManager
             this.tabPageLT.TabIndex = 0;
             this.tabPageLT.Text = "Snapmatic";
             this.tabPageLT.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(6, 6);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 3;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 200F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(715, 627);
-            this.tableLayoutPanel9.TabIndex = 0;
-            // 
-            // panelSnapmaticLoggedin
-            // 
-            this.panelSnapmaticLoggedin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelSnapmaticLoggedin.Location = new System.Drawing.Point(6, 6);
-            this.panelSnapmaticLoggedin.Name = "panelSnapmaticLoggedin";
-            this.panelSnapmaticLoggedin.Size = new System.Drawing.Size(715, 627);
-            this.panelSnapmaticLoggedin.TabIndex = 1;
-            this.panelSnapmaticLoggedin.Visible = false;
             // 
             // panelSnapmaticLogin
             // 
@@ -553,6 +529,7 @@ namespace RAGEPhotoManager
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 0, 1);
             this.tableLayoutPanel6.Controls.Add(this.buttonSubmitSnapmaticLogin, 0, 2);
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel8, 0, 3);
+            this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel9, 0, 0);
             this.tableLayoutPanel6.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -673,6 +650,47 @@ namespace RAGEPhotoManager
             this.linkLabel2.Text = "Forgot your password?";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.label3, 1, 0);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(703, 54);
+            this.tableLayoutPanel9.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::RAGEPhotoManager.Properties.Resources.SnapmaticLogo;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(54, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panelSnapmaticLoggedin
+            // 
+            this.panelSnapmaticLoggedin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelSnapmaticLoggedin.Location = new System.Drawing.Point(6, 6);
+            this.panelSnapmaticLoggedin.Name = "panelSnapmaticLoggedin";
+            this.panelSnapmaticLoggedin.Size = new System.Drawing.Size(715, 627);
+            this.panelSnapmaticLoggedin.TabIndex = 1;
+            this.panelSnapmaticLoggedin.Visible = false;
+            // 
             // tabPageInstagram
             // 
             this.tabPageInstagram.Location = new System.Drawing.Point(4, 29);
@@ -780,7 +798,7 @@ namespace RAGEPhotoManager
             // 
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStripTray;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "RAGE Photo manager";
+            this.notifyIcon1.Text = "RAGE Photo Manager";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.NotifyIcon1_MouseDoubleClick);
             // 
@@ -841,6 +859,19 @@ namespace RAGEPhotoManager
             this.imageList.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(63, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 54);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Snapmatic";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -876,6 +907,9 @@ namespace RAGEPhotoManager
             this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel8.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tDebug.ResumeLayout(false);
             this.tDebug.PerformLayout();
             this.menuStripMain.ResumeLayout(false);
@@ -946,8 +980,10 @@ namespace RAGEPhotoManager
         private Button buttonShare;
         private Button buttonDelete;
         private Button buttonExportToJPEG;
-        private TableLayoutPanel tableLayoutPanel9;
         private RichTextBox richTextBoxProperties;
+        private TableLayoutPanel tableLayoutPanel9;
+        private PictureBox pictureBox1;
+        private Label label3;
     }
 }
 
