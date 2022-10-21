@@ -44,12 +44,29 @@
           </Component>
         </Directory>
       </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="RAGE Photo Manager"/>
+      </Directory>
     </Directory>
+
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut">
+        <Shortcut Id="ApplicationStartMenuShortcut"
+             Name="RAGE Photo Manager"
+           Description="RAGE Photo Manager"
+            Target="[#RAGEPhotoManager.exe]"
+                  WorkingDirectory="ApplicationProgramsFolder"/>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\DrEmixam\RAGEPhotoManager" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
 
     <Feature Id="ProductFeature" Title="RAGE_Photo_Manager_Installer" Level="1">
       <ComponentRef Id="RAGEPhotoManager.exe" />
       <ComponentRef Id="Newtonsoft.Json.dll" />
       <ComponentRef Id="RAGEPhotoManager.exe.config" />
+
+      <ComponentRef Id="ApplicationShortcut" />
     </Feature>
 
     <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />

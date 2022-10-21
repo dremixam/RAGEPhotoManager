@@ -117,11 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tabPageSettings.Text" xml:space="preserve">
-    <value>Paramètres</value>
-  </data>
   <data name="columnHeaderName.Text" xml:space="preserve">
-    <value>Localisation</value>
+    <value>Nom</value>
   </data>
   <data name="columnHeaderIngameDate.Text" xml:space="preserve">
     <value>Date en jeu</value>
@@ -148,9 +145,6 @@
   <data name="buttonExportToJPEG.Text" xml:space="preserve">
     <value>Exporter en JPEG</value>
   </data>
-  <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
-    <value>Paramètres Généraux</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBoxAutosave.Size" type="System.Drawing.Size, System.Drawing">
     <value>380, 24</value>
@@ -167,8 +161,14 @@
   <data name="checkBoxStartWithSystem.Text" xml:space="preserve">
     <value>Démarrer avec le système</value>
   </data>
-  <data name="groupBoxSocial.Text" xml:space="preserve">
-    <value>Réseaux sociaux</value>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 24</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Supprimer les photos du jeu après conversion en JPEG</value>
+  </data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
+    <value>Paramètres Généraux</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelSnapmaticLogin.AutoSize" type="System.Boolean, mscorlib">
@@ -210,8 +210,29 @@
   <data name="linkLabelForgotSnapmaticPassword.Text" xml:space="preserve">
     <value>Mot de passe oublié</value>
   </data>
+  <data name="groupBoxSocial.Text" xml:space="preserve">
+    <value>Réseaux sociaux</value>
+  </data>
+  <data name="tabPageSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
   <data name="textBoxDebugLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>1462, 712</value>
+  </data>
+  <data name="minimizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 34</value>
+  </data>
+  <data name="minimizeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Réduire</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="quitterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 34</value>
+  </data>
+  <data name="quitterToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
   </data>
   <data name="fichierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 29</value>
@@ -219,26 +240,20 @@
   <data name="fichierToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Fichier</value>
   </data>
-  <data name="minimizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 34</value>
-  </data>
-  <data name="minimizeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Réduire</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 6</value>
-  </data>
-  <data name="quitterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 34</value>
-  </data>
-  <data name="quitterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
   <data name="aProposToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 34</value>
   </data>
   <data name="aProposToolStripMenuItem.Text" xml:space="preserve">
     <value>A Propos</value>
+  </data>
+  <data name="ouvrirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="paramètresToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
   </data>
   <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1367,15 +1382,6 @@
         96GbrwU7NbuN9O3ogyA2aAVw/8/9Hfzs9dnrs9dnr89en70+e332+uz12euz12evz16fvT57ffb67PXZ
         67PXZ6/PXp+9Pnt99vrs9dnrs9cLv/4/GV6RcNSFvFYAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="ouvrirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ouvrir</value>
-  </data>
-  <data name="paramètresToolStripMenuItem.Text" xml:space="preserve">
-    <value>Paramètres</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quitter</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

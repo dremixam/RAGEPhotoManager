@@ -23,8 +23,8 @@ namespace RAGEPhotoManager.Model
             List<String> r = new List<string>();
 
             r.Add("Location : ");
-            r.Add(GameData.RDR3Data.GetName(districtname) + ", "
-                + GameData.RDR3Data.GetName(regionname) + ", "
+            r.Add(((regionname != 0) ?GameData.RDR3Data.GetName(regionname) + ", ":"")
+                + GameData.RDR3Data.GetName(districtname) + ", "
                 + GameData.RDR3Data.GetName(statename));
             r.Add("(" + loc + ")");
 

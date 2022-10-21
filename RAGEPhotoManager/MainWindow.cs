@@ -80,6 +80,8 @@ namespace RAGEPhotoManager
 
             Model.Settings.Load();
 
+            Text =  String.Format("{0} - build {1}", Text, typeof(MainWindow).Assembly.GetName().Version.ToString());
+
             checkBoxAutosave.Checked = Model.Settings.SaveToMyPictures;
             labelSelectedDir.Text = Model.Settings.MyPicturesPath;
             folderBrowserDialog1.SelectedPath = Model.Settings.MyPicturesPath;
@@ -213,6 +215,7 @@ namespace RAGEPhotoManager
         {
             System.Diagnostics.Process.Start("https://snapmatic.liberty-tree.net/password/reset");
         }
+
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             String message = "Are you sure you want to permanently delete " + Path.GetFileName(((Photo)listViewImages.SelectedItems[0].Tag).Path) + "?";

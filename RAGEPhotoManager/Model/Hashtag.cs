@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RAGEPhotoManager.Model
 {
-    public class Hashtag
+    public class Hashtag : IEquatable<Hashtag>
     {
         String _Text;
 
@@ -22,6 +19,23 @@ namespace RAGEPhotoManager.Model
             _Text = String.Join("", words);
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Hashtag hashtag &&
+                   _Text == hashtag._Text;
+        }
+
+        public bool Equals(Hashtag other)
+        {
+            return other != null &&
+                   _Text == other._Text;
+        }
+
+        public override int GetHashCode()
+        {
+            return -816887083 + EqualityComparer<string>.Default.GetHashCode(_Text);
+        }
+
         public override string ToString()
         {
             return ToString("#");
@@ -31,5 +45,7 @@ namespace RAGEPhotoManager.Model
         {
             return hash + _Text;
         }
+
+
     }
 }

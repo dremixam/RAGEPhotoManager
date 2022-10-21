@@ -74,6 +74,7 @@ namespace RAGEPhotoManager
             this.labelSelectedDir = new System.Windows.Forms.Label();
             this.buttonBrowseAutosaveFolder = new System.Windows.Forms.Button();
             this.checkBoxStartWithSystem = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBoxSocial = new System.Windows.Forms.GroupBox();
             this.tabControlSocialSettings = new System.Windows.Forms.TabControl();
             this.tabPageLT = new System.Windows.Forms.TabPage();
@@ -283,6 +284,7 @@ namespace RAGEPhotoManager
             this.tableLayoutPanel4.Controls.Add(this.checkBoxAutosave, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.checkBoxStartWithSystem, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.checkBox1, 0, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             // 
             // checkBoxAutosave
@@ -317,6 +319,12 @@ namespace RAGEPhotoManager
             this.checkBoxStartWithSystem.Name = "checkBoxStartWithSystem";
             this.checkBoxStartWithSystem.UseVisualStyleBackColor = true;
             this.checkBoxStartWithSystem.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // groupBoxSocial
             // 
@@ -679,6 +687,7 @@ namespace RAGEPhotoManager
         private TableLayoutPanel tableLayoutPanel9;
         private PictureBox pictureBoxSnapmaticIcon;
         private Label labelTitleSnapmatic;
+        private CheckBox checkBox1;
     }
 }
 

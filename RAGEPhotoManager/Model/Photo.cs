@@ -269,8 +269,8 @@ namespace RAGEPhotoManager.Model
                     break;
                 case GameType.RDR3:
                     MetadataRDR3 metadataRDR3 = (MetadataRDR3)_Meta;
+                    if (metadataRDR3.regionname != 0) hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.regionname)));
                     hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.districtname)));
-                    hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.regionname)));
                     hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(metadataRDR3.statename)));
                     break;
             }
@@ -318,15 +318,10 @@ namespace RAGEPhotoManager.Model
                         {
                             hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(weap)));
                         }
-                    if (metadataRDR3.meta.plyr != null)
-                        foreach (Int64 plyr in metadataRDR3.meta.plyr)
-                        {
-                            hashtags.Add(new Hashtag(GameData.RDR3Data.GetName(plyr)));
-                        }
                 }
             }
 
-            return hashtags.ToArray();
+            return hashtags.Distinct().ToList().ToArray();
         }
 
 

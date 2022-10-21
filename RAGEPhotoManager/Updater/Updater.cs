@@ -24,7 +24,7 @@ namespace RAGEPhotoManager.Updater
                 wc.DownloadProgressChanged += wc_DownloadProgressChanged;
                 wc.DownloadFileCompleted += wc_DownloadFileCompleted;
 
-                Uri uri = new System.Uri("https://files.liberty-tree.net/RAGE_Photo_Manager_Installer.msi");
+                Uri uri = new System.Uri("https://storage.melinon.com/RAGEPhotoManager/RAGE_Photo_Manager_Installer.msi");
                 String path = Path.GetTempPath() + "RAGE_Photo_Manager_Installer.msi";
 
                 Debug.WriteLine(path);

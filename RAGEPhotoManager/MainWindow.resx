@@ -144,7 +144,7 @@
     <value>200</value>
   </data>
   <data name="columnHeaderName.Text" xml:space="preserve">
-    <value>Location</value>
+    <value>Name</value>
   </data>
   <data name="columnHeaderName.Width" type="System.Int32, mscorlib">
     <value>100</value>
@@ -166,10 +166,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="listViewImages.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>5, 20</value>
+  </data>
+  <data name="listViewImages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="listViewImages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>987, 672</value>
+    <value>878, 539</value>
   </data>
   <data name="listViewImages.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -187,10 +190,16 @@
     <value>0</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>999, 703</value>
+    <value>888, 563</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -223,10 +232,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="richTextBoxProperties.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>5, 20</value>
+  </data>
+  <data name="richTextBoxProperties.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="richTextBoxProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 512</value>
+    <value>389, 411</value>
   </data>
   <data name="richTextBoxProperties.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -247,10 +259,16 @@
     <value>0</value>
   </data>
   <data name="groupBoxPhotoProperties.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="groupBoxPhotoProperties.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBoxPhotoProperties.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBoxPhotoProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>451, 543</value>
+    <value>400, 435</value>
   </data>
   <data name="groupBoxPhotoProperties.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -280,10 +298,13 @@
     <value>False</value>
   </data>
   <data name="buttonShare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 107</value>
+    <value>5, 86</value>
+  </data>
+  <data name="buttonShare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="buttonShare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 35</value>
+    <value>389, 28</value>
   </data>
   <data name="buttonShare.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -310,10 +331,13 @@
     <value>False</value>
   </data>
   <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 66</value>
+    <value>5, 53</value>
+  </data>
+  <data name="buttonDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 35</value>
+    <value>389, 28</value>
   </data>
   <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -340,10 +364,13 @@
     <value>False</value>
   </data>
   <data name="buttonExportToJPEG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>5, 20</value>
+  </data>
+  <data name="buttonExportToJPEG.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="buttonExportToJPEG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 35</value>
+    <value>389, 28</value>
   </data>
   <data name="buttonExportToJPEG.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -364,10 +391,16 @@
     <value>2</value>
   </data>
   <data name="groupBoxActions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 552</value>
+    <value>3, 441</value>
+  </data>
+  <data name="groupBoxActions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBoxActions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBoxActions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>451, 154</value>
+    <value>400, 124</value>
   </data>
   <data name="groupBoxActions.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -388,7 +421,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1005, 0</value>
+    <value>894, 0</value>
   </data>
   <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -397,7 +430,7 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>457, 709</value>
+    <value>406, 567</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -415,16 +448,19 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxPhotoProperties" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxActions" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,160" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxPhotoProperties" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxActions" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,128" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>5, 5</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1462, 709</value>
+    <value>1300, 567</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -445,13 +481,16 @@
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,68,78307,Percent,31,21693" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1474, 721</value>
+    <value>1309, 574</value>
   </data>
   <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -490,10 +529,13 @@
     <value>True</value>
   </data>
   <data name="checkBoxAutosave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 33</value>
+    <value>3, 26</value>
+  </data>
+  <data name="checkBoxAutosave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="checkBoxAutosave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>191, 20</value>
   </data>
   <data name="checkBoxAutosave.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -526,7 +568,7 @@
     <value>3, 0</value>
   </data>
   <data name="labelSelectedDir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 20</value>
+    <value>0, 16</value>
   </data>
   <data name="labelSelectedDir.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -547,13 +589,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="buttonBrowseAutosaveFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>591, 0</value>
+    <value>525, 0</value>
   </data>
   <data name="buttonBrowseAutosaveFolder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonBrowseAutosaveFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
+    <value>89, 24</value>
   </data>
   <data name="buttonBrowseAutosaveFolder.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -574,7 +616,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 60</value>
+    <value>0, 48</value>
   </data>
   <data name="tableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -583,7 +625,7 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>691, 30</value>
+    <value>614, 24</value>
   </data>
   <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -601,16 +643,19 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelSelectedDir" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonBrowseAutosaveFolder" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelSelectedDir" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonBrowseAutosaveFolder" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,89" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="checkBoxStartWithSystem.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBoxStartWithSystem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="checkBoxStartWithSystem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="checkBoxStartWithSystem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 24</value>
+    <value>127, 20</value>
   </data>
   <data name="checkBoxStartWithSystem.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -630,14 +675,47 @@
   <data name="&gt;&gt;checkBoxStartWithSystem.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 74</value>
+  </data>
+  <data name="checkBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 20</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Delete photos from game after JPEG conversion</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>5, 20</value>
+  </data>
+  <data name="tableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>691, 678</value>
+    <value>614, 543</value>
   </data>
   <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -655,13 +733,19 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="checkBoxAutosave" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="checkBoxStartWithSystem" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="checkBoxAutosave" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="checkBoxStartWithSystem" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="checkBox1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="groupBoxGeneralSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="groupBoxGeneralSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBoxGeneralSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBoxGeneralSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>703, 703</value>
+    <value>625, 563</value>
   </data>
   <data name="groupBoxGeneralSettings.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -706,10 +790,10 @@
     <value>Left</value>
   </data>
   <data name="labelSnapmaticLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
+    <value>3, 13</value>
   </data>
   <data name="labelSnapmaticLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 23</value>
+    <value>48, 18</value>
   </data>
   <data name="labelSnapmaticLogin.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -739,10 +823,10 @@
     <value>True</value>
   </data>
   <data name="labelSnapmaticPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>334, 17</value>
+    <value>297, 14</value>
   </data>
   <data name="labelSnapmaticPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
+    <value>70, 16</value>
   </data>
   <data name="labelSnapmaticPassword.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -769,10 +853,13 @@
     <value>Left, Right</value>
   </data>
   <data name="textBoxSnapmaticLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 14</value>
+    <value>92, 11</value>
+  </data>
+  <data name="textBoxSnapmaticLogin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="textBoxSnapmaticLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 26</value>
+    <value>199, 22</value>
   </data>
   <data name="textBoxSnapmaticLogin.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -793,13 +880,16 @@
     <value>Left, Right</value>
   </data>
   <data name="textBoxSnapmaticPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>474, 14</value>
+    <value>421, 11</value>
+  </data>
+  <data name="textBoxSnapmaticPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="textBoxSnapmaticPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value>•</value>
   </data>
   <data name="textBoxSnapmaticPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 26</value>
+    <value>199, 22</value>
   </data>
   <data name="textBoxSnapmaticPassword.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -817,13 +907,16 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 63</value>
+    <value>3, 50</value>
+  </data>
+  <data name="tableLayoutPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>703, 54</value>
+    <value>623, 44</value>
   </data>
   <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -841,16 +934,19 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelSnapmaticLogin" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelSnapmaticPassword" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textBoxSnapmaticLogin" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="textBoxSnapmaticPassword" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,100,Percent,50,Absolute,140,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelSnapmaticLogin" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelSnapmaticPassword" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textBoxSnapmaticLogin" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="textBoxSnapmaticPassword" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,89,Percent,50,Absolute,124,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="buttonSubmitSnapmaticLogin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="buttonSubmitSnapmaticLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 123</value>
+    <value>3, 98</value>
+  </data>
+  <data name="buttonSubmitSnapmaticLogin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="buttonSubmitSnapmaticLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>703, 54</value>
+    <value>623, 44</value>
   </data>
   <data name="buttonSubmitSnapmaticLogin.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -883,10 +979,10 @@
     <value>True</value>
   </data>
   <data name="linkLabelCreateSnapmaticAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 28</value>
+    <value>98, 22</value>
   </data>
   <data name="linkLabelCreateSnapmaticAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 20</value>
+    <value>115, 16</value>
   </data>
   <data name="linkLabelCreateSnapmaticAccount.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -913,10 +1009,10 @@
     <value>True</value>
   </data>
   <data name="linkLabelForgotSnapmaticPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 28</value>
+    <value>395, 22</value>
   </data>
   <data name="linkLabelForgotSnapmaticPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 20</value>
+    <value>144, 16</value>
   </data>
   <data name="linkLabelForgotSnapmaticPassword.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -937,13 +1033,16 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 183</value>
+    <value>3, 146</value>
+  </data>
+  <data name="tableLayoutPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel8.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>703, 76</value>
+    <value>623, 61</value>
   </data>
   <data name="tableLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -961,7 +1060,7 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="linkLabelCreateSnapmaticAccount" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="linkLabelForgotSnapmaticPassword" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,76" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="linkLabelCreateSnapmaticAccount" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="linkLabelForgotSnapmaticPassword" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,61" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -973,10 +1072,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="pictureBoxSnapmaticIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="pictureBoxSnapmaticIcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="pictureBoxSnapmaticIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 48</value>
+    <value>47, 40</value>
   </data>
   <data name="pictureBoxSnapmaticIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -1006,10 +1108,10 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="labelTitleSnapmatic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 0</value>
+    <value>56, 0</value>
   </data>
   <data name="labelTitleSnapmatic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 54</value>
+    <value>114, 44</value>
   </data>
   <data name="labelTitleSnapmatic.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1033,13 +1135,16 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="tableLayoutPanel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel9.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>703, 54</value>
+    <value>623, 44</value>
   </data>
   <data name="tableLayoutPanel9.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1057,16 +1162,19 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBoxSnapmaticIcon" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelTitleSnapmatic" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBoxSnapmaticIcon" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelTitleSnapmatic" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,53,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 2</value>
+  </data>
+  <data name="tableLayoutPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>709, 262</value>
+    <value>629, 210</value>
   </data>
   <data name="tableLayoutPanel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1084,13 +1192,16 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel7" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonSubmitSnapmaticLogin" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel8" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel9" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,60,Absolute,60,Absolute,60,Absolute,60" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel7" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonSubmitSnapmaticLogin" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel8" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel9" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,48,Absolute,48,Absolute,48,Absolute,48" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="panelSnapmaticLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>5, 5</value>
+  </data>
+  <data name="panelSnapmaticLogin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="panelSnapmaticLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 565</value>
+    <value>635, 456</value>
   </data>
   <data name="panelSnapmaticLogin.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1111,10 +1222,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="panelSnapmaticLoggedin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>5, 5</value>
+  </data>
+  <data name="panelSnapmaticLoggedin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="panelSnapmaticLoggedin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 627</value>
+    <value>635, 506</value>
   </data>
   <data name="panelSnapmaticLoggedin.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1135,13 +1249,16 @@
     <value>1</value>
   </data>
   <data name="tabPageLT.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageLT.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageLT.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageLT.Size" type="System.Drawing.Size, System.Drawing">
-    <value>727, 639</value>
+    <value>644, 510</value>
   </data>
   <data name="tabPageLT.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1162,13 +1279,16 @@
     <value>0</value>
   </data>
   <data name="tabPageInstagram.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageInstagram.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageInstagram.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageInstagram.Size" type="System.Drawing.Size, System.Drawing">
-    <value>727, 639</value>
+    <value>645, 509</value>
   </data>
   <data name="tabPageInstagram.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1189,13 +1309,16 @@
     <value>1</value>
   </data>
   <data name="tabPageTwitter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageTwitter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageTwitter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageTwitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>727, 639</value>
+    <value>645, 509</value>
   </data>
   <data name="tabPageTwitter.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1216,13 +1339,19 @@
     <value>2</value>
   </data>
   <data name="tabControlSocialSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>5, 20</value>
+  </data>
+  <data name="tabControlSocialSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabControlSocialSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 672</value>
+    <value>652, 539</value>
   </data>
   <data name="tabControlSocialSettings.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="tabControlSocialSettings.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;tabControlSocialSettings.Name" xml:space="preserve">
     <value>tabControlSocialSettings</value>
@@ -1237,10 +1366,16 @@
     <value>0</value>
   </data>
   <data name="groupBoxSocial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>712, 3</value>
+    <value>634, 2</value>
+  </data>
+  <data name="groupBoxSocial.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBoxSocial.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBoxSocial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 703</value>
+    <value>663, 563</value>
   </data>
   <data name="groupBoxSocial.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1261,13 +1396,16 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>5, 5</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1462, 709</value>
+    <value>1300, 567</value>
   </data>
   <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1288,13 +1426,16 @@
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="groupBoxGeneralSettings" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBoxSocial" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,48,55856,Percent,51,44144" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tabPageSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabPageSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1474, 721</value>
+    <value>1309, 574</value>
   </data>
   <data name="tabPageSettings.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1318,7 +1459,10 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="textBoxDebugLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+    <value>5, 5</value>
+  </data>
+  <data name="textBoxDebugLog.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="textBoxDebugLog.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1327,7 +1471,7 @@
     <value>Vertical</value>
   </data>
   <data name="textBoxDebugLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1462, 709</value>
+    <value>1300, 568</value>
   </data>
   <data name="textBoxDebugLog.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1345,13 +1489,16 @@
     <value>0</value>
   </data>
   <data name="tDebug.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 25</value>
+  </data>
+  <data name="tDebug.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tDebug.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tDebug.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1474, 721</value>
+    <value>1309, 574</value>
   </data>
   <data name="tDebug.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1372,10 +1519,13 @@
     <value>2</value>
   </data>
   <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 36</value>
+    <value>11, 29</value>
+  </data>
+  <data name="tabControlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1482, 754</value>
+    <value>1317, 603</value>
   </data>
   <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1396,37 +1546,37 @@
     <value>17, 17</value>
   </metadata>
   <data name="minimizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 34</value>
+    <value>153, 26</value>
   </data>
   <data name="minimizeToolStripMenuItem.Text" xml:space="preserve">
     <value>Minimize</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 6</value>
+    <value>150, 6</value>
   </data>
   <data name="quitterToolStripMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
     <value />
   </data>
   <data name="quitterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 34</value>
+    <value>153, 26</value>
   </data>
   <data name="quitterToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="fichierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 29</value>
+    <value>46, 24</value>
   </data>
   <data name="fichierToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
   </data>
   <data name="aProposToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 34</value>
+    <value>133, 26</value>
   </data>
   <data name="aProposToolStripMenuItem.Text" xml:space="preserve">
     <value>About</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 29</value>
+    <value>30, 24</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>?</value>
@@ -1434,8 +1584,11 @@
   <data name="menuStripMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="menuStripMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
+  </data>
   <data name="menuStripMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1506, 33</value>
+    <value>1339, 28</value>
   </data>
   <data name="menuStripMain.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1468,34 +1621,34 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 32</value>
+    <value>230, 24</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>RAGE Photo Manager</value>
   </data>
   <data name="ouvrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 32</value>
+    <value>230, 24</value>
   </data>
   <data name="ouvrirToolStripMenuItem.Text" xml:space="preserve">
     <value>Open</value>
   </data>
   <data name="paramètresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 32</value>
+    <value>230, 24</value>
   </data>
   <data name="paramètresToolStripMenuItem.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 6</value>
+    <value>227, 6</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 32</value>
+    <value>230, 24</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
     <value>Quit</value>
   </data>
   <data name="contextMenuStripTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 138</value>
+    <value>231, 106</value>
   </data>
   <data name="&gt;&gt;contextMenuStripTray.Name" xml:space="preserve">
     <value>contextMenuStripTray</value>
@@ -2653,10 +2806,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1506, 802</value>
+    <value>1339, 642</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3785,6 +3938,9 @@
         96GbrwU7NbuN9O3ogyA2aAVw/8/9Hfzs9dnrs9dnr89en70+e332+uz12euz12evz16fvT57ffb67PXZ
         67PXZ6/PXp+9Pnt99vrs9dnrs9cLv/4/GV6RcNSFvFYAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RAGE Photo Manager</value>
