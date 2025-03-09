@@ -1,26 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="*" Name="RAGE Photo Manager" Language="1033" Version="!(bind.FileVersion.RAGEPhotoManager.exe)" Manufacturer="DrEmixam" UpgradeCode="1915e792-f148-4ea1-8581-c30a5c096ae0">
-    <Package InstallerVersion="400" Compressed="yes" InstallScope="perMachine"  Description="RAGE Photo Manager" Comments="v!(bind.FileVersion.RAGEPhotoManager.exe)" />
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="RAGE Photo Manager" Language="1033" Version="!(bind.FileVersion.RAGEPhotoManager.exe)" Manufacturer="DrEmixam" UpgradeCode="1915e792-f148-4ea1-8581-c30a5c096ae0" InstallerVersion="400"><SummaryInformation Description="RAGE Photo Manager" />
 
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 
     <InstallExecuteSequence>
-      <Custom Action='MyProcess.TaskKill' Before='InstallValidate'/>
+      <Custom Action="MyProcess.TaskKill" Before="InstallValidate" />
       <!-- Determine the install location after the install path has been validated by the installer -->
       <Custom Action="SetARPINSTALLLOCATION" After="InstallValidate"></Custom>
 
-      <Custom Action='LaunchApplication' After='InstallFinalize' />
+      <Custom Action="LaunchApplication" After="InstallFinalize" />
     </InstallExecuteSequence>
 
-    <Property Id="QtExecCmdLine"
-          Value='"[WindowsFolder]\System32\taskkill.exe" /F /IM RAGEPhotoManager.exe'/>
-    <CustomAction Id="MyProcess.TaskKill"
-                  BinaryKey="WixCA"
-                  DllEntry="CAQuietExec"
-                  Execute="immediate"
-                  Return="ignore"/>
+    <Property Id="QtExecCmdLine" Value="&quot;[WindowsFolder]\System32\taskkill.exe&quot; /F /IM RAGEPhotoManager.exe" />
+    <CustomAction Id="MyProcess.TaskKill" DllEntry="WixQuietExec" Execute="immediate" Return="ignore" BinaryRef="Wix4UtilCA_X86" />
 
     <CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLDIR]" />
 
@@ -30,34 +22,13 @@
 
     <Media Id="1" Cabinet="cab1.cab" EmbedCab="yes" />
 
-    <Directory Id="TARGETDIR" Name="SourceDir">
-      <Directory Id="ProgramFilesFolder">
-        <Directory Id="INSTALLDIR" Name="RAGE Photo Manager">
-          <Component Id="RAGEPhotoManager.exe">
-            <File Source="$(var.RAGEPhotoManager.TargetDir)\RAGEPhotoManager.exe" />
-          </Component>
-          <Component Id="Newtonsoft.Json.dll">
-            <File Source="$(var.RAGEPhotoManager.TargetDir)\Newtonsoft.Json.dll" />
-          </Component>
-          <Component Id="RAGEPhotoManager.exe.config">
-            <File Source="$(var.RAGEPhotoManager.TargetDir)\RAGEPhotoManager.exe.config" />
-          </Component>
-        </Directory>
-      </Directory>
-      <Directory Id="ProgramMenuFolder">
-        <Directory Id="ApplicationProgramsFolder" Name="RAGE Photo Manager"/>
-      </Directory>
-    </Directory>
+    
 
     <DirectoryRef Id="ApplicationProgramsFolder">
       <Component Id="ApplicationShortcut">
-        <Shortcut Id="ApplicationStartMenuShortcut"
-             Name="RAGE Photo Manager"
-           Description="RAGE Photo Manager"
-            Target="[#RAGEPhotoManager.exe]"
-                  WorkingDirectory="ApplicationProgramsFolder"/>
-        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
-        <RegistryValue Root="HKCU" Key="Software\DrEmixam\RAGEPhotoManager" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+        <Shortcut Id="ApplicationStartMenuShortcut" Name="RAGE Photo Manager" Description="RAGE Photo Manager" Target="[#RAGEPhotoManager.exe]" WorkingDirectory="ApplicationProgramsFolder" />
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\DrEmixam\RAGEPhotoManager" Name="installed" Type="integer" Value="1" KeyPath="yes" />
       </Component>
     </DirectoryRef>
 
@@ -74,11 +45,28 @@
     <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
 
     <Property Id="WixShellExecTarget" Value="[#RAGEPhotoManager.exe]" />
-    <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+    <CustomAction Id="LaunchApplication" DllEntry="WixShellExec" Impersonate="yes" BinaryRef="Wix4UtilCA_X86" />
 
     <UI>
-      <UIRef Id="WixUI_InstallDir" />
+      <ui:WixUI Id="WixUI_InstallDir" />
     </UI>
 
-  </Product>
+  
+      <StandardDirectory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLDIR" Name="RAGE Photo Manager">
+          <Component Id="RAGEPhotoManager.exe">
+            <File Id="RAGEPhotoManager.exe" Source="$(var.RAGEPhotoManager.TargetDir)\RAGEPhotoManager.exe" />
+          </Component>
+          <Component Id="Newtonsoft.Json.dll">
+            <File Id="Newtonsoft.Json.dll" Source="$(var.RAGEPhotoManager.TargetDir)\Newtonsoft.Json.dll" />
+          </Component>
+          <Component Id="RAGEPhotoManager.exe.config">
+            <File Id="RAGEPhotoManager.exe.config" Source="$(var.RAGEPhotoManager.TargetDir)\RAGEPhotoManager.exe.config" />
+          </Component>
+        </Directory>
+      </StandardDirectory>
+      <StandardDirectory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="RAGE Photo Manager" />
+      </StandardDirectory>
+    </Package>
 </Wix>

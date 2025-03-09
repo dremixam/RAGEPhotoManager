@@ -35,7 +35,7 @@ namespace RAGEPhotoManager.Updater
                 WebClient client = new WebClient();
                 string currentVersion = typeof(MainWindow).Assembly.GetName().Version.ToString();
                 client.Headers.Add(HttpRequestHeader.UserAgent, "RAGE Photo Manager updater " + currentVersion);
-                Stream stream = client.OpenRead("https://storage.melinon.com/RAGEPhotoManager/version.txt");
+                Stream stream = client.OpenRead("https://github.com/dremixam/RAGEPhotoManager/releases/latest/download/version.txt");
                 StreamReader reader = new StreamReader(stream);
                 string newestVersion = reader.ReadToEnd().Trim();
                 return newestVersion != currentVersion;

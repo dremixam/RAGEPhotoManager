@@ -45,6 +45,19 @@ namespace RAGEPhotoManager.Model
                     Profiles.Add(profile);
                 }
             }
+
+            if (Directory.Exists(rockstarPath + "\\GTAV Enhanced\\Profiles"))
+            {
+                Model.Debugger.Log("GTA5 Enhanced found");
+                foreach (string dir in Directory.GetDirectories(rockstarPath + "\\GTAV Enhanced\\Profiles"))
+                {
+                    Model.Debugger.Log("GTA5 profile found : " + dir);
+                    Profile profile = new Profile(GameType.GTA5, dir);
+                    profile.Watch();
+                    profile.Load();
+                    Profiles.Add(profile);
+                }
+            }
         }
 
         public static void KillAllThreads()
